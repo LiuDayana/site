@@ -1,3 +1,45 @@
+  @import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap');
+
+* {
+    font-family: 'Belanosima', sans-serif !important;
+    font-size: 1.25rem;
+    font-weight: 400 !important;
+}
+
 #contato img:hover {
     filter: invert(0.5);
+}
+
+.badge {
+    padding: 0.5rem !important;
+    background-color: rgb(225, 154, 247);
+}
+
+strong {
+    color: rgb(225, 154, 247);
+}
+
+#inicio strong {
+    font-size: 1.75rem !important;
+}
+
+.card-title {
+    font-size: 2rem !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+#projetos .card:hover {
+    border-color: rgb(225, 154, 247) !important;
+}
+#projetos .card:hover::after {
+    content: 'Conferir!';
+    display: flex;
+    justify-content: center;
+    color: rgb(225, 154, 247);
+    background: #fff;
+    margin: 1rem;
+    border-radius: 1rem;
 }
